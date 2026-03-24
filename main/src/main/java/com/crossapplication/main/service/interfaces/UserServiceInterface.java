@@ -8,5 +8,4 @@ public interface UserServiceInterface {
     public String login(String email, String password);
 
     public void changePassword(Long userId, String newPassword);
-
 }
